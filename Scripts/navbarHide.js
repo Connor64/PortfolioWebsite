@@ -1,7 +1,7 @@
 ﻿var navHeight, navColor, navTextShadow, fontSize, logoPad, logoMarg;
 var navbar, logo;
 var big = true;
-var homepage;
+var homepage = false;
 
 $(document).ready(function () {
     navbar = document.getElementById("navbar");
@@ -14,13 +14,7 @@ $(document).ready(function () {
     logoPad = logo.style.paddingTop;
     logoMarg = logo.style.marginTop;
 
-    homepage = document.URL.includes("index.html");
-    if (homepage) {
-        grow();
-    } else {
-        shrink();
-    }
-    scrollFunction();
+    initialize();
 });
 
 $(window).scroll(function () {
@@ -48,6 +42,16 @@ function scrollFunction() {
         
     }
     console.log(homepage);
+}
+
+function initialize() {
+    homepage = document.URL.includes("home.html");
+    if (homepage) {
+        grow();
+    } else {
+        shrink();
+    }
+    scrollFunction();
 }
 
 function shrink() {
