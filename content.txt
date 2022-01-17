@@ -1,0 +1,43 @@
+thumbnail descriptions for each section:
+  cave: Can you believe cave drawings are the earliest form of animation? Check out this page to learn more and see some examples!
+  hand-drawn: After cave drawings, many have experimented with actual moving images drawn by hand. This type of animation has gone through many forms and changes, so check out this page to learn about it!
+  stop-motion: maybe it's clay, maybe it's other inanimate objects, but stop motion allows anyone to bring objects to life through the use of photography.
+  2d computer: A more recent development in the world of animation, modern 2d animation takes an already-drawn character and brings them to life on the computer.
+  3d animation: Similar to modern 2D, 3D is all done through computer graphics. Many animated films take on this style of animation.
+  raster v vector: While there are plenty of styles of animation, there are also two specific ways animation can be styled. Check out here what raster and vector are and what they do.
+  
+Cave content:
+  It may be surprising to think about, but it is quite possible that some or many cave drawings use one of the earliest forms of animation that we call a thaumatrope, which is the use 
+  of a flickering light to give an object the illusion of movement. Through studying these drawings, it was noted that some images depict animals with multiple limbs like legs or heads. 
+  Take this image for example:
+  IMAGE
+    There are a couple types of animals in this wall drawing, and multiple depictions of each one. Maybe the one who drew this was just drawing a herd of animals? 
+  Or maybe they were trying to depict an animal in motion? Here is another image of a cave drawing:
+  IMAGE
+    Isn’t it strange how this bison has eight legs instead of only four? It would be if 
+  the artist wasn’t depicting the animal moving. Here is the drawing again where everything is blacked out except the outline:
+  IMAGE
+    And here it is if the legs are shown and hidden:
+  IMAGE
+    It looks like this bison is running! If it is true that cave drawings are in fact animated images, then these are the earliest forms of animation in history.
+    Click here to go on to the next form of animation. Or, click here to return to the homepage.
+
+
+
+Classic content
+
+
+
+stop-motion content
+
+
+
+2d computer animation content
+
+
+
+3d computer animation content
+
+
+
+raster vs vector content content

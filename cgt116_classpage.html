@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>CGT 116</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--hamburger menu icon-->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+          integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Style/navigationStyle.css" />
+    <link rel="stylesheet" href="Style/contentStyle.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!--used for open sans font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--Navigation bar-->
+    <div id="nav-placeholder"></div>
+    <script>
+        $(function () {
+            $("#nav-placeholder").load("navbar.html");
+        });
+    </script>
+    <!--end of Navigation bar-->
+
+    <div class="pageHeader" style="background-image: linear-gradient(to bottom, rgba(209, 255, 255, 0.3), rgba(175, 237, 214, 0.15)), url('images/mayaSnapshot.jpg');">
+    </div>
+    <div id="content">
+        <h1>Weeks</h1>
+        <hr />
+        <div id="classes">
+            <a href="cgt116_week1.html" class="gallery">
+                <img src="images/Week1.png" />
+                <div class="desc">Week 1</div>
+            </a>
+        </div>
+    </div>
+    <footer>
+        <h1>Author: Connor Colbert</h1>
+        <a href="mailto:colberj@purdue.edu">colberj@purdue.edu</a>
+    </footer>
+</body>
+</html>

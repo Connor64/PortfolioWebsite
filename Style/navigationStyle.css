@@ -1,0 +1,244 @@
+﻿/* SIDEBAR (hidden normally) */
+/* SIDEBAR (hidden normally) */
+/* SIDEBAR (hidden normally) */
+
+.sidebar {
+    position: fixed;
+    float: left;
+    top: 0;
+    left: -50%;
+    height: 100%;
+    width: 50%;
+    background-color: rgba(27, 47, 51, 1);
+    z-index: 125;
+    transition: .4s;
+    padding-right: 2%;
+    font-family: Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+    .sidebar a {
+        float: right;
+        font-size: 1.2vw;
+        color: white;
+        text-align: center;
+        padding: 15px 16px 15px;
+        text-decoration: none;
+        box-sizing: border-box;
+        height: 50px;
+        width: 100%;
+        margin: auto;
+        font-family: inherit;
+        transition: padding .4s;
+        font-weight: bold;
+    }
+    /* The dropdown container */
+    .sidebar .dropdown {
+        float: right;
+        overflow: hidden;
+        height: 50px;
+        width: 100%;
+    }
+
+        /* Dropdown button */
+        .sidebar .dropdown .dropbutton {
+            font-size: 1.2vw;
+            font-weight: bold;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit; /* Important for vertical align on mobile phones */
+            margin: 0; /* Important for vertical align on mobile phones */
+            height: 100%;
+            width: 100%;
+        }
+
+        /* Add a red background color to navbar links on hover */
+        .sidebar a:hover, .sidebar .dropdown:hover .dropbutton {
+            background-color: white;
+            color: #704c5e;
+        }
+
+    /* Dropdown content (hidden by default) */
+    .sidebar .dropdown-box {
+        display: none;
+        position: absolute;
+        background-color: white;
+        /*    min-width: 160px;*/
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        background: linear-gradient( to top, #5F7175, #1B2F33);
+        width: 100%;
+    }
+
+        /* Links inside the dropdown */
+        .sidebar .dropdown-box #dropLinks {
+            float: none;
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+            font-family: inherit;
+            font-weight: bold;
+            width: 100%;
+        }
+
+            /* Add a grey background color to dropdown links on hover */
+            .sidebar .dropdown-box #dropLinks:hover {
+                background-color: #ddd;
+                color: #704c5e;
+            }
+
+    /* Show the dropdown menu on hover */
+    .sidebar .dropdown:hover .dropdown-box {
+        display: block;
+    }
+
+
+/* NORMAL NAVBAR ---------------------------------------------------------------------- */
+/* NORMAL NAVBAR ---------------------------------------------------------------------- */
+/* NORMAL NAVBAR ---------------------------------------------------------------------- */
+/* NORMAL NAVBAR ---------------------------------------------------------------------- */
+#navbar {
+    position: fixed;
+    float: left;
+    top: 0;
+    right: 0;
+    height: 75%;
+    width: 100%;
+    background-color: rgba(27, 47, 51, 1);
+    z-index: 150;
+    transition: .6s;
+    padding-right: 2%;
+    font-family: Helvetica, Arial, sans-serif;
+    text-shadow: 0px 0px 30px #000000;
+}
+
+/* Links inside the navbar */
+#navItems a {
+    text-shadow: 0px 0px 10px #000000;
+    display: inline-block;
+    float: left;
+    vertical-align: middle;
+    box-sizing: border-box;
+    height: 100%;
+    /*        margin: 0 500px 0 0;*/
+}
+
+/* Div containing all menu items at bottom of navbar */
+#navItems {
+    position: relative;
+    left: -50%;
+    margin: auto;
+    height: 50px;
+    bottom: 0;
+    line-height: 50px; /* Vertically centers the items */
+}
+
+/* Individual menu items (I know that IDs shouldn't be used this way but it works) */
+#menuItems {
+    font-size: 2vh;
+    font-family: inherit;
+    font-weight: bold;
+    font-weight: bold;
+    text-shadow: 0px 0px 10px #000000;
+    text-decoration: underline rgba(255, 255, 255, 0);
+    transition: text-decoration-color 0.2s;
+    color: white;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+    #menuItems:hover {
+        text-decoration-color: rgba(255, 255, 255, 1);
+    }
+
+/* The dropdown container */
+.dropdown {
+    float: left;
+    overflow: hidden;
+    height: 100%;
+}
+
+/* Dropdown button */
+.dropbutton {
+    border: none;
+    outline: none;
+    background-color: inherit;
+    color: white;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+/* Dropdown box (hidden by default) */
+.dropdown-box {
+    width: 10vh;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    background-color: lightgray;
+    border-radius: 4px;
+    text-align: center;
+    flex-shrink: 0;
+    flex-direction: column;
+    margin-top: 40px;
+    transition: opacity .4s;
+    /*    transform: translate(-50%, 0);*/
+}
+
+.dropdown:hover .dropdown-box {
+    visibility: visible;
+    opacity: 1
+}
+
+/* Links inside the dropdown */
+#dropLinks {
+    float: none;
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 1.5vh;
+    padding: 5px 10px 5px 10px;
+    margin: 0;
+    text-align: center;
+    text-decoration: underline rgba(255, 255, 255, 0);
+    transition: text-decoration-color 0.2s;
+    border-bottom: 1px solid gray;
+    /*        transition: 0.4s;*/
+}
+
+    /* Add a grey background color to dropdown links on hover */
+    #dropLinks:hover {
+        text-decoration: underline rgba(255, 255, 255, 1);
+    }
+
+#logo {
+    /*    position: absolute;*/
+    top: 10px;
+    width: 100%;
+    /*    left: 50%;*/
+    color: white;
+    /*    font-size: 2.5vw;*/
+    font-weight: 100;
+    /*        font-weight: 900;*/
+    padding: 25px 0 0 25px;
+    margin-top: 35vh;
+    /*    float: left;*/
+    /*    margin-left: 1%;*/
+    transition: .6s;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 5.5vw;
+}
