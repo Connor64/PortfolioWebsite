@@ -101,11 +101,15 @@
         width: 75%;
     }
 
-#classes {
+#folders {
     display: flex;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+#folders p {
+    padding: 10px 0 20px 0;
 }
 
 .gallery {
