@@ -144,11 +144,17 @@
         background-color: rgba(0, 130, 181, 0.01);
     }
 
+.assignmentContents {
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', Geneva, Verdana, sans-serif;
+    margin: 50px 0 75px 0;
+}
+
 .references {
     width: 20%;
-    margin: 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', Geneva, Verdana, sans-serif;
     font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', Geneva, Verdana, sans-serif;
+    margin: 50px 10px 10px 10px;
 }
 
     .references img {
